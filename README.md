@@ -23,6 +23,7 @@ Any contribution is welcome.
 2. Change directory and install all node dependencies
 
     `cd Advanced-PalWorld-Server-Discord-Bot`
+    
     `npm install`
     
 3. Edit the environment (.env) file
@@ -31,6 +32,7 @@ Any contribution is welcome.
     `npm run build`
 
     `node ./build/index.js`
+
 5. (Optional) Run the discord bot in his own screen, start the bot with the following
 
     `screen -dmS discordbot node ./build/index.js`
