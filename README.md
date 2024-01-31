@@ -18,7 +18,7 @@ Any contribution is welcome.
 
 1. Clone this repository to your server.
 
-`git clone https://github.com/Maufeat/Advanced-PalWorld-Server-Discord-Bot.git`
+    `git clone https://github.com/Maufeat/Advanced-PalWorld-Server-Discord-Bot.git`
 
 2. Change directory and install all node dependencies
 
@@ -27,10 +27,13 @@ Any contribution is welcome.
     
 3. Edit the environment (.env) file
 4. Build & Start the bot
-`npm run build`
-`node ./build/index.js`
+
+    `npm run build`
+
+    `node ./build/index.js`
 5. (Optional) Run the discord bot in his own screen, start the bot with the following
-`screen -dmS discordbot node ./build/index.js`
+
+    `screen -dmS discordbot node ./build/index.js`
 
 
 ## Support & Contribution
