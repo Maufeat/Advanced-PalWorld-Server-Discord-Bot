@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "outDir": "./build"
+  },
+  "include": ["./src/*", "src/old/index.js", "src/old/register-commands.js", "src/old/runBash.js"],
+  "exclude": ["./build/*","./node_modules/*", "./scripts/*"]
+}

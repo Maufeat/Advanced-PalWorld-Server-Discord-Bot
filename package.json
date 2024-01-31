@@ -1,0 +1,20 @@
+{
+  "name": "advanced-palworld-server-discord-bot",
+  "author": "Maufeat (Sahin Habermann)",
+  "version": "1.0.0",
+  "description": "A Discord bot that handles and controls Palworld Server operations",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "tsc --build && node ./build/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "node-fetch": "^2.7.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
