@@ -10,6 +10,9 @@ Any contribution is welcome.
 
  - Activity Feed to display the current online players
  - Discord Slash Commands (/start, /stop, /backup, /update)
+ - Simple role management (e.g. only selected people can use the commands)
+ 
+![Show the current player count](https://i.ibb.co/88ZSVmn/grafik.png)
 
 ## Installation
 
