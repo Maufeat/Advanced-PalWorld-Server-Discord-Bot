@@ -50,10 +50,12 @@ export default class DiscordBot {
         this.rest = new REST({ version: "10" }).setToken(
             process.env.DISCORD_BOT_TOKEN
         );
-        this.registerCommands();
+        if(!process.env.DISCORD_ACITIY_ONLY)
+            this.registerCommands();
         this.client.on("ready", this.onReady);
         this.client.on("interactionCreate", (i) => this.onInteraction(i, this.commands));
-        await this.registerCommandsToServer();
+        if(!process.env.DISCORD_ACITIY_ONLY)
+            await this.registerCommandsToServer();
         setInterval(async () => {
             this.updateActivity();
         }, Number(process.env.DISCORD_ACTIVITY_INTERVAL) * 1000);
