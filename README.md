@@ -14,6 +14,12 @@ Any contribution is welcome.
  
 ![Show the current player count](https://i.ibb.co/88ZSVmn/grafik.png)
 
+## Server Preparation
+
+For this to work properly, you need to install `node` and `npm` on your server.
+
+And ideally, PalWorld Dedicated Server already installed.
+
 ## Installation
 
 1. Clone this repository to your server.
@@ -38,5 +44,6 @@ Any contribution is welcome.
     `screen -dmS discordbot node ./build/index.js`
 
 
-## Support & Contribution
+## Support & Contribution´
+
 If you have any question, open an issue in this repository.
