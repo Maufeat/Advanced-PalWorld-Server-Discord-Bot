@@ -85,7 +85,7 @@ export default class DiscordBot {
         let playerCount = content.sessions[0].attributes.PLAYERS_l;
         let maxPlayerCount = content.sessions[0].attributes.NUMPUBLICCONNECTIONS_l;
         this.client.user?.setActivity({
-            name: `Playing ${playerCount} / ${maxPlayerCount}`,
+            name: `Players ${playerCount} / ${maxPlayerCount}`,
             type: ActivityType.Playing
         });
     }
